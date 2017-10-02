@@ -145,6 +145,9 @@ def on_chat_message(msg):
 
                 # terminate prematurely to avoid sending message twice
                 return
+            elif (command == 'meow'):
+                response = 'Purrr~'
+
             # suggest the user to respawn the cat using /kitty
             if not (cat_bot.is_alive):
                 response += ' You can respawn your cat using the command /kitty.'
