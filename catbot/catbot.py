@@ -21,7 +21,7 @@ from telepot.delegate import pave_event_space, per_chat_id, create_open
 # TODO: 4.2.2 Import KeyboardButton, ReplyKeyboardMarkup and Conversation Dialog #####
 from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton
 from conversation import dialog
-TOKEN = 469742823:AAE7N7VdneV7IxgQ-6ljHvg5g1ydkJ8vPl0
+TOKEN = '469742823:AAE7N7VdneV7IxgQ-6ljHvg5g1ydkJ8vPl0'
 
 # TODO: 4.2.1 Set Conversation States ################################################
 MEOW_CHOOSE_LANG = 0
