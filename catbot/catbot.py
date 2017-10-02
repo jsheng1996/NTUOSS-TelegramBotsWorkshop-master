@@ -127,9 +127,7 @@ def on_chat_message(msg):
                 cat_bot.kill()
                 bot.sendMessage(chat_id, '*respawns ' + cat_bot.name + '*')
             # TODO: 4.2.3 Handle 'meow' Command ######################################
-            elif (command == 'meow'):
-                response = 'Purrr~'
-                elif (command == 'meow' and self.state == MEOW_CHOOSE_LANG):
+            elif (command == 'meow' and self.state == MEOW_CHOOSE_LANG):
 
                 # get available languages
                 languages = dialog.keys()
